@@ -1,0 +1,64 @@
+
+87 ?- consult(['c:/Users/renad/Downloads/Task2_Lab10.pl']).
+true.
+
+88 ?- login.
+
+Enter Username: ali.
+
+Enter Password: |: 1234.
+
+Login Successful
+true.
+
+89 ?- login.
+
+Enter Username: ali.
+
+Enter Password: |: 9999.
+
+Login Unsuccessful
+Attempts remaining: 2
+
+Enter Username: |: ali.
+
+Enter Password: |: 1234.
+
+Login Successful
+true.
+
+89 ?- 
+|    login.
+
+Enter Username: ali.
+
+Enter Password: |: 1234.
+
+Login Successful
+true.
+
+89 ?- login.
+
+Enter Username: ali.
+
+Enter Password: |: 1111.
+
+Login Unsuccessful
+Attempts remaining: 2
+
+Enter Username: |: ali.
+
+Enter Password: |: 2222.
+
+Login Unsuccessful
+Attempts remaining: 1
+
+Enter Username: |: ali.
+
+Enter Password: |: 3333.
+
+Login Unsuccessful
+Sorry, you exceeded the maximum number of attempts, try again later.
+true.
+
+89 ?- 
